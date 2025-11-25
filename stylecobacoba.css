@@ -1,0 +1,101 @@
+
+    body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    scroll-behavior: smooth;
+}
+
+.slide {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.slide1 {
+    background: url('photo-1509042239860-f550ce710b93.jpg') center/cover no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,.4);
+}
+
+
+.slide2 {
+    background: url('cute-doodle-coffee-shop-icons-outline-hand-drawn-for-coffee-and-bakery-for-cafe-menu-vector.jpg')
+}
+
+
+.slide3 {
+    background: url('photo-1504754524776-8f4f37790ca0.jpg') center/cover no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,.45);
+}
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.order-btn {
+    background: #d4a373;
+    padding: 12px 26px;
+    border-radius: 30px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    background: #fff;
+}
+
+
+.order-btn-light {
+    background: #fff;
+    padding: 12px 26px;
+    border-radius: 30px;
+    color: #5a3e36;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.order-btn-light:hover {
+    background: #d4a373;
+    color: #000;
+}
+
+
+.wa-btn {
+    background: #25d366;
+    padding: 14px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.wa-btn:hover {
+    background: #1faa52;
+}
+
+
+footer {
+    background: #2d2d2d;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+  
